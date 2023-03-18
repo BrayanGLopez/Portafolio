@@ -32,68 +32,75 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     </head>
     <body>
-        <!--Barra de navegacion (navbar)-->
-        <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand logo" href="#welcome-section">B-L</a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbar-toogle"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="bi bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-toogle">
-                    <ul class="navbar-nav d-flex justify-content-end align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#welcome-section">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Acerca de mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <!--Seccion principal-->
-        <main>
-            <section id="welcome-section">
-                <div class="image">
-                    <img src="https://lh3.googleusercontent.com/YgcDnCC7kmiwCc3FNpC_ENk9lnVYWyjPt07Oj14w8t4Do97SZtYgoUvAmreFDVXJdXsQuSx9RLrvf0I8bUwAFhaOAQZdlIjiXSe2dJtNm7W1roTjANyHP4IIhA74CQAvVYtByH9kuGYKiJvyYlr3KarYwO1AvClSSavVRm6StZedUFL2_tTmkJwQLRpMYxV2os4IFmRWHA0hhWg8Y7PC7koXEs9-PORaDbxLBWmI4Rr3adLViTuv44iQ4GASruSuvs3ekZU1qKaBLD02LWokEtB4VC6L3C0b7J3C4iHjmG4Y7bSaa09dodHxZ2DTornZlhzTtNHIGTrYXq5P0Xd7a9xnNAlqrjQqaa1DHuV3iCVZScA1KATCH_Mvw5xXCIuf_vRYHKtH4lb9cuNwYyBZxUhtWMyh8CKladEvUSx_KrCS2jpxnSzyU7qo28urzn0LzffEGh1smmzLQyziOJwWNC1bzpdYqLKpWzAzDFExcTzNEf1qEumwnOMgE699EwQQ_OWU3T9tpXKdM5DPtD29VK16efT3bG7mlItg8-QRzdnMqmIihd1iQcM_XOhv_4Jm983_A5RL4g40Cv98oMyQ2UCs1z--RZrfr3LqWG0Kjk7i5PYsylzBr9LZfKjgl1Ly5jeIlVwfGVJ3CX7MRsxuvID8U26e2cxM0kAIqNffs-MDNZcVSVO5ZA6stxXpN_uspNbNPoh8v8ZWIee85nKE2sdNkZoOm1-UHVqGjdWkgnrr1e4NLXqFb7u8Ij3b76U3YQZqxrWBXpqpR8zO61U19hp4-1UyHIa5lmkNiNMHdTNKwGsE64sqGLChK9TgBvoCst0Z9J4L82tbC03aqpRBsvC9KMFanDwyo-o9rIipmUOxG4E7QVAFo4_Vat5emaDgFl0_7Ekl_QB08lmbRPj7BaMvXxykFj_bW6tft37r1ysTr6v3=w465-h625-no?authuser=0"
-                        alt="imagen-perfil">
-                </div>
-                <div class="title">
-                    <h1>Brayan Gerardo López Suarez</h1>
-                    <h2>Desarrollador Junior Full Stack</h2>
-                    <div class="icons">
-                        <a href="https://www.linkedin.com/in/brayan-gerardo-l%C3%B3pez-su%C3%A1rez-956a84104/" class="icon"target="_blank">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/BrayanGLopez" class="icon" id="profile-link" target="_blank">
-                            <i class="bi bi-github"></i>
-                        </a>
-                        <a href="https://www.facebook.com/brayanlopezcdlm/" class="icon" target="_blank">
-                            <i class="bi bi-facebook"></i>
-                        </a>
+        <div class="container-fluid">
+            <!--Barra de navegacion (navbar)-->
+            <header class="row">
+                <nav class="navbar navbar-expand-sm bg-dark fixed-top" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand logo" href="#welcome-section">B-L</a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbar-toogle"
+                            aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="bi bi-list"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar-toogle">
+                            <ul class="navbar-nav d-flex justify-content-end align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#welcome-section">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Acerca de mi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="tecnologias">
-                    <i class="fa-brands fa-html5 tecno"></i>
-                    <i class="fa-brands fa-css3-alt tecno"></i>
-                    <i class="fa-brands fa-js tecno"></i>
-                    <i class="fa-brands fa-java tecno"></i>
-                    <i class="fa-solid fa-database tecno"></i>
-                    <i class="fa-brands fa-git-alt tecno"></i>
-                </div>
-            </section>
+                </nav>
+            </header>
 
-        </main>
+
+            <!--Seccion principal-->
+            <main class="row">
+                <section class="col" id="welcome-section">
+                    <div class="image">
+                        <img src="https://lh3.googleusercontent.com/YgcDnCC7kmiwCc3FNpC_ENk9lnVYWyjPt07Oj14w8t4Do97SZtYgoUvAmreFDVXJdXsQuSx9RLrvf0I8bUwAFhaOAQZdlIjiXSe2dJtNm7W1roTjANyHP4IIhA74CQAvVYtByH9kuGYKiJvyYlr3KarYwO1AvClSSavVRm6StZedUFL2_tTmkJwQLRpMYxV2os4IFmRWHA0hhWg8Y7PC7koXEs9-PORaDbxLBWmI4Rr3adLViTuv44iQ4GASruSuvs3ekZU1qKaBLD02LWokEtB4VC6L3C0b7J3C4iHjmG4Y7bSaa09dodHxZ2DTornZlhzTtNHIGTrYXq5P0Xd7a9xnNAlqrjQqaa1DHuV3iCVZScA1KATCH_Mvw5xXCIuf_vRYHKtH4lb9cuNwYyBZxUhtWMyh8CKladEvUSx_KrCS2jpxnSzyU7qo28urzn0LzffEGh1smmzLQyziOJwWNC1bzpdYqLKpWzAzDFExcTzNEf1qEumwnOMgE699EwQQ_OWU3T9tpXKdM5DPtD29VK16efT3bG7mlItg8-QRzdnMqmIihd1iQcM_XOhv_4Jm983_A5RL4g40Cv98oMyQ2UCs1z--RZrfr3LqWG0Kjk7i5PYsylzBr9LZfKjgl1Ly5jeIlVwfGVJ3CX7MRsxuvID8U26e2cxM0kAIqNffs-MDNZcVSVO5ZA6stxXpN_uspNbNPoh8v8ZWIee85nKE2sdNkZoOm1-UHVqGjdWkgnrr1e4NLXqFb7u8Ij3b76U3YQZqxrWBXpqpR8zO61U19hp4-1UyHIa5lmkNiNMHdTNKwGsE64sqGLChK9TgBvoCst0Z9J4L82tbC03aqpRBsvC9KMFanDwyo-o9rIipmUOxG4E7QVAFo4_Vat5emaDgFl0_7Ekl_QB08lmbRPj7BaMvXxykFj_bW6tft37r1ysTr6v3=w465-h625-no?authuser=0"
+                            alt="imagen-perfil">
+                    </div>
+                    <div class="title">
+                        <h1>Brayan Gerardo López Suarez</h1>
+                        <h2>Desarrollador Junior Full Stack</h2>
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/brayan-gerardo-l%C3%B3pez-su%C3%A1rez-956a84104/" class="icon"target="_blank">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/BrayanGLopez" class="icon" id="profile-link" target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/brayanlopezcdlm/" class="icon" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fa-brands fa-html5 tecno"></i>
+                        <i class="fa-brands fa-css3-alt tecno"></i>
+                        <i class="fa-brands fa-js tecno"></i>
+                        <i class="fa-brands fa-java tecno"></i>
+                        <i class="fa-solid fa-database tecno"></i>
+                        <i class="fa-brands fa-git-alt tecno"></i>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+        
 
 
         <!--Bootstrap js-->
