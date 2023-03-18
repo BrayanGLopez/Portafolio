@@ -120,6 +120,85 @@ section{
     transform: scale(1.2);
 }
 
+#about-me{
+    background: linear-gradient(180deg,black,#292c3e);
+}
+
+.info-der{
+    color: white;
+    overflow: auto;
+    padding: 100px;
+}
+
+.info-der h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.5rem;
+    color: rgb(255, 80, 71);
+}
+
+.info-der hr{
+    margin-top: 15px;
+    border-color: rgb(255, 80, 71);
+}
+
+.info-der p{
+   
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.services{
+    width: 100%;
+}
+
+.services h3{
+    color: rgb(255, 80, 71);
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+
+.services ul{
+    margin-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.services ul li{
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+.info-der a{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 200px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 80, 71);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    animation: saltar 3s infinite;
+    align-self: center;
+}
+
+@keyframes saltar {
+    0%{
+        transform: scale(1.1);
+    }50%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1.1);
+    }    
+}
+
 @media screen and (max-width: 576px) {
 
     .navbar-toggler{
@@ -168,6 +247,14 @@ section{
     .tecno{
         font-size: 35px;
         color: white;
+    }
+
+    .info-der{
+        padding: 50px;
+    }
+
+    .img-izq{
+        padding: 50px;
     }
     
 }
